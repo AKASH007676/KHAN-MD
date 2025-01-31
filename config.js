@@ -15,7 +15,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY KHAN-MD 🤍*",
 // set the auto reply massage on status reply  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "*",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
 // add bot namw here for menu
@@ -65,7 +65,7 @@ DEV: process.env.DEV || "919064560840",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "pm", 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
